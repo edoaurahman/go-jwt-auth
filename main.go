@@ -82,7 +82,7 @@ func loginHandler(c *gin.Context) {
 	}
 
 	// Generate Access Token
-	accessExpiration := time.Now().Add(10 * time.Second)
+	accessExpiration := time.Now().Add(15 * time.Minute)
 	accessClaims := &AccessClaims{
 		Username: credentials.Email,
 		RegisteredClaims: jwt.RegisteredClaims{
