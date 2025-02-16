@@ -1,0 +1,1 @@
+Simple Go JWT auth for testing Kong API Gateway token manager plugin.
