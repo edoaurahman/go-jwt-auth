@@ -58,7 +58,7 @@ func main() {
 		authRoutes.GET("/protected", protectedHandler)
 	}
 
-	r.Run(":8090")
+	r.Run(":3000")
 }
 
 // [LOGIN HANDLER - Tetap sama sampai...]

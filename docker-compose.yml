@@ -1,0 +1,8 @@
+services:
+  go-jwt-auth:
+    container_name: go-jwt-auth
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3000"
